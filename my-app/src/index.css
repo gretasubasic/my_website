@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+
+body {
+  background-color: #070b32
+  ;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+  
+  
+
+
+p {
+  
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-weight: normal;
+  
+}
+
+a {
+  
+  color: #bea9de;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+
+
+
+
+.btn {
+  background: none;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 3rem;
+  border-color: #e07bf3;
+  font-size: 14px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+ 
+ 
+  .btn:hover {
+      background: #e07bf3;
+      border-color: #e07bf3;
+      border-radius: 5px;
+      
+  }
+
+
+
+@media (max-width: 572px) {
+  .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 5px;
+  color: #070B34;
+  margin-top: 2rem;
+  border-color: #e07bf3;
+  font-size: 12px;
+  letter-spacing: 2px;
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  }
+}
